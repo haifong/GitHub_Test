@@ -3,7 +3,10 @@ pipeline {
     stages {
         stage('run_test') {
             steps {
-                sh 'python3 hello.py '
+                sh '''
+                        sshpass -p "Os10086*" ssh -o StrictHostKeyChecking=no administrator@192.168.0.122"
+                    ''''
+                bat 'dir'
             }
         }
     }
