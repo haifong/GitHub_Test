@@ -1,9 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage('build') {
+        stage('run_test') {
             steps {
-                sh 'python --version'
+                sh 'python3 hello.py '
             }
         }
     }
