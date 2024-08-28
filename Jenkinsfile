@@ -16,7 +16,7 @@ pipeline
                 bat 'echo hello'
             }
         }
-        state('win10_Test')
+        stage('win10_Test')
         {
             steps
             {
