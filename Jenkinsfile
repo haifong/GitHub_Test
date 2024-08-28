@@ -2,7 +2,6 @@ pipeline {
     agent none  // 顶层不锁定在任何节点上
     stages 
 	{
-		/*
         stage('Build on Built-In Node') 
 		{
             agent 
@@ -28,7 +27,6 @@ pipeline {
                 }
             }
         }
-	*/
         stage('Deploy on Windows Node') 
 		{
             agent 
