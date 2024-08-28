@@ -9,20 +9,19 @@ pipeline
    }
     stages 
     {
-        stage('run_test') 
+        stage('jenkins_test') 
         {
             steps 
             {
                 bat 'echo hello'
             }
         }
-    }
-    stages
-    {
         state('win10_Test')
-        steps
         {
-            bat 'echo win10 hello'
+            steps
+            {
+                bat 'echo win10 hello'
+            }
         }
     }
 }
