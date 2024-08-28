@@ -1,7 +1,7 @@
 pipeline {
     agent {
         node {
-            label "Win"
+            label "JenkinsServer"
         }
    }
     stages {
