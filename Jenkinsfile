@@ -31,7 +31,7 @@ pipeline {
 		{
             agent 
 			{
-                label 'Win10_Test'  // 在 Windows 节点上执行
+                label 'Win'  // 在 Windows 节点上执行
             }
             stages {
                 stage('SCM Checkout') 
