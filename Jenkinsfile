@@ -21,8 +21,8 @@ pipeline {
 				{
                     steps 
 					{
-                        echo 'Building on built-in node...'
-                        // 这里执行在 built-in node 上的构建任务
+                        sh 'built-in hello!!!'
+                        
                     }
                 }
             }
@@ -45,8 +45,8 @@ pipeline {
 				{
                     steps 
 					{
-                        bat 'Deploying on Windows node...'
-                        // 这里执行在 Windows 节点上的部署或其他任务
+                        bat 'echo win hello!!!'
+                        
                     }
                 }
             }
