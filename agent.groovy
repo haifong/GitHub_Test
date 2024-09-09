@@ -4,7 +4,7 @@ node("Win10")
     {
         checkout scm
         //bat 'python ./hello.py'
-        bat 'echo hello'
+        bat 'python --version'
         bat 'echo %errorlevel%'
     }
 }
