@@ -25,7 +25,7 @@ def is_online(node_name)
 node("JenkinsServer")
 {
     def tasks = [:]
-    if(is_online"Win10"())
+    if(is_online("Win10"))
     {
         print("Node Win10 Exist")
         tasks["Win10 Test"] = 
