@@ -1,5 +1,6 @@
 node("JenkinsServer")
 {
+    def tasks = [:]
     def Jenkins_inst = Jenkins.get()
     if(Jenkins_inst != null)
     {
