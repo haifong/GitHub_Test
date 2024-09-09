@@ -14,6 +14,7 @@ def is_online(node_name)
             b_ret = false
         }
     }
+    else
     {
         b_ret = false
     }
