@@ -41,11 +41,11 @@ node("JenkinsServer")
     }
    
     //try 
-    {
+    //{
         parallel tasks
-    }
+    //}
     //catch(exception)
-    {
+    //{
         //print("run tasks fail")
-    }
+    //}
 }
