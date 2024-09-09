@@ -19,13 +19,13 @@ node("JenkinsServer")
                 print("Node Win10 not Exist")
             }
         }
-        try 
+        //try 
         {
             parallel tasks
         }
-        catch(exception)
+        //catch(exception)
         {
-            print("run tasks fail")
+            //print("run tasks fail")
         }
     }
 }
